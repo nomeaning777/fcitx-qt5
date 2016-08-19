@@ -30,6 +30,7 @@ class FcitxQtConfigUIWidget;
 /**
  * interface for qt config ui
  */
+QT_BEGIN_NAMESPACE
 struct FCITXQTWIDGETSADDONS_EXPORT FcitxQtConfigUIFactoryInterface
 {
     /**
@@ -63,9 +64,12 @@ struct FCITXQTWIDGETSADDONS_EXPORT FcitxQtConfigUIFactoryInterface
     virtual QString domain() = 0;
 
 };
+QT_END_NAMESPACE
 
 #define FcitxQtConfigUIFactoryInterface_iid "org.fcitx.Fcitx.FcitxQtConfigUIFactoryInterface"
+QT_BEGIN_NAMESPACE
 Q_DECLARE_INTERFACE(FcitxQtConfigUIFactoryInterface, FcitxQtConfigUIFactoryInterface_iid)
+QT_END_NAMESPACE
 
 /**
  * base class for qt config ui

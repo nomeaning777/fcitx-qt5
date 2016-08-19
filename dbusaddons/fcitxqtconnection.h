@@ -24,7 +24,9 @@
 
 #include <QtCore/QObject>
 
+QT_BEGIN_NAMESPACE
 class QDBusConnection;
+QT_END_NAMESPACE
 
 class FcitxQtConnectionPrivate;
 

@@ -24,8 +24,10 @@
 #include <QtCore/QWeakPointer>
 #include <QtCore/QFileSystemWatcher>
 
+QT_BEGIN_NAMESPACE
 class QDBusConnection;
 class QDBusServiceWatcher;
+QT_END_NAMESPACE
 
 class FcitxQtConnectionPrivate : public QObject {
     Q_OBJECT

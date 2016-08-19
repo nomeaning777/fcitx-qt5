@@ -243,7 +243,6 @@ void qEventToSym(int key, const QString& text, Qt::KeyboardModifiers mod, int& o
 
 // end of XF86keysyms.h
 
-QT_BEGIN_NAMESPACE
 
 // keyboard mapping table
 static const unsigned int KeyTbl[] = {
@@ -874,3 +873,4 @@ bool keyQtToSym(int qtcode, Qt::KeyboardModifiers mod, int& sym, unsigned int& s
 
     return sym >= 0;
 }
+
